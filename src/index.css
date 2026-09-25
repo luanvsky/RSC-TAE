@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  header,
+  #btn-info-decreto,
+  #btn-export-dossier,
+  #btn-process-autonomously,
+  button {
+    display: none !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+}
